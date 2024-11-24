@@ -1,4 +1,4 @@
-### SparseFormer (TGRS 2024)
+### SparseFormer (TGRS 2024 under review )
 - This is the PyTorch implementation of "a Credible Dual-CNN Expert Guided Transformer for Remote Sensing Image Segmentation with Sparse Point Annotation (TGRS 2024)"
 - For any problem related to this project, please email me: chenyujia111@outlook.com, thanks.
 
