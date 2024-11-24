@@ -17,7 +17,7 @@
   - [Zurich Summer dataset](https://zenodo.org/record/5914759)
   - [Point-level annotations](https://github.com/Hua-YS/Semantic-Segmentation-with-Sparse-Labels) (The above work was provided by Hua et al, please convert the annotation files into the `.png` format, where the pixel values range from `0` to `num_classes-1`)
 -  We also provide the processed data set, which can be downloaded at the link [PointDataset](https://drive.google.com/file/d/1QWoAGVWgjUM5XW7CQKvtmBHOCSVInO7m/view?usp=sharing).
-- Pretrained models:[Efficientnet](https://pan.baidu.com/s/1zBmHtnpafVjstgdLUO7DJA) and [SwinV2](https://drive.google.com/file/d/1arfOBeQWZLUStvc64MkgtG3nQesG2Ini/view?usp=sharing)
+- Pretrained models: [Efficientnet](https://pan.baidu.com/s/1zBmHtnpafVjstgdLUO7DJA coda:qv8z and [SwinV2](https://drive.google.com/file/d/1arfOBeQWZLUStvc64MkgtG3nQesG2Ini/view?usp=sharing)
 
 - Data folder structure
   - The data folder is structured as follows:
