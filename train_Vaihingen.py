@@ -200,9 +200,9 @@ def main():
             miou3 = np.nanmean(metrics_batch3, axis=0)            
             
             loss_hist[batch_index,0] = loss.item()
-            loss_hist[batch_index,1] = loss_ce1.item()  
-            loss_hist[batch_index,2] = loss_ce2.item()  
-            loss_hist[batch_index,3] = loss_ce3.item()          
+            loss_hist[batch_index,1] = loss_seg.item()  
+            loss_hist[batch_index,2] = loss_ce3.item()  
+            loss_hist[batch_index,3] = loss_kl.item()          
             loss_hist[batch_index,4] = miou1
             loss_hist[batch_index,5] = miou2
             loss_hist[batch_index,6] = miou3
