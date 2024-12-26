@@ -77,7 +77,7 @@ python inference_Zurich.py
 ```
 
 ### Paper
-**[a Credible Dual-CNN Expert Guided Transformer for Remote Sensing Image Segmentation with Sparse Point Annotation](https://arxiv.org/abs/2202.03740)**
+**[SparseFormer: A Credible Dual-CNN Expert Guided Transformer for Remote Sensing Image Segmentation with Sparse Point Annotation]**
 
 Please cite the following paper if the code is useful for your research:
 
