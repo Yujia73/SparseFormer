@@ -83,7 +83,7 @@ Please cite the following paper if the code is useful for your research:
 
 ```
 @article{SparseFormer,
-  title={a Credible Dual-CNN Expert Guided Transformer for Remote Sensing Image Segmentation with Sparse Point Annotation}, 
+  title={SparseFormer: A Credible Dual-CNN Expert Guided Transformer for Remote Sensing Image Segmentation with Sparse Point Annotation}, 
   author={Yujia Chen, Hao Cui, Guo Zhang, Xue Li, Zhigang Xie, Haifeng Li, Deren Li},
   journal={IEEE Transactions on Geoscience and Remote Sensing},  
   volume={},
