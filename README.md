@@ -82,14 +82,14 @@ python inference_Zurich.py
 Please cite the following paper if the code is useful for your research:
 
 ```
-@article{SparseFormer,
+[@article{SparseFormer,
   title={SparseFormer: A Credible Dual-CNN Expert Guided Transformer for Remote Sensing Image Segmentation with Sparse Point Annotation}, 
   author={Yujia Chen, Hao Cui, Guo Zhang, Xue Li, Zhigang Xie, Haifeng Li, Deren Li},
   journal={IEEE Transactions on Geoscience and Remote Sensing},  
   volume={},
   pages={},
   year={2024},
-}
+}](https://github.com/Yujia73/SparseFormer)
 ```
 ### Acknowledgement
 - This project heavily rely on Long's work, for more details, please see the link(https://github.com/long123524/CLCFormer).
