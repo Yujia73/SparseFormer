@@ -63,7 +63,7 @@ parser.add_argument('--seed', type=int,  default=2022, help='random seed')
 
 parser.add_argument('--attn1', type=str,  default='CA',
                     help='output channel of network')
-parser.add_argument('--attn2', type=str,  default='CABM',
+parser.add_argument('--attn2', type=str,  default='CBAM',
                     help='output channel of network')
 
 parser.add_argument('--cfg', type=str, default="./configs/swin_tiny_patch4_window7_224_lite.yaml", help='path to config file', )
