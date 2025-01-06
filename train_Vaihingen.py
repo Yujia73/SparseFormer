@@ -130,7 +130,7 @@ def main():
             outputs1,outputs2,outputs3 = model(image)
 
             #warm-up stage
-            if (epoch + 1)<=50:
+            if (epoch + 1)<=10:
                 #supervised loss using point label
                 loss_ce1 = ce_loss(outputs1,label_batch)
                 loss_ce2 = ce_loss(outputs2,label_batch)
