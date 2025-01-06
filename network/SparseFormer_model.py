@@ -24,22 +24,6 @@ class FixedBatchNorm(nn.BatchNorm2d):
     def forward(self, x):
         return F.batch_norm(x, self.running_mean, self.running_var, self.weight, self.bias, training=False, eps=self.eps)
 
-# 生成器网络
-class Generator(nn.Module):
-    def __init__(self):
-        super(Generator, self).__init__()
-        self.model = nn.Sequential(
-            nn.Conv2d(2, 64, kernel_size=3, stride=1, padding=1),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(64, 128, kernel_size=3, stride=1, padding=1),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(128, 3, kernel_size=3, stride=1, padding=1),
-            nn.Tanh()
-        )
-
-    def forward(self, x):
-        return self.model(x)
-
 class cSE(nn.Module):  # noqa: N801
     """
     The channel-wise SE (Squeeze and Excitation) block from the
