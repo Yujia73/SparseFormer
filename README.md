@@ -1,5 +1,5 @@
 ### SparseFormer (TGRS 2024)
-- This is the PyTorch implementation of "a Credible Dual-CNN Expert Guided Transformer for Remote Sensing Image Segmentation with Sparse Point Annotation (TGRS 2024)"
+- This is the PyTorch implementation of "A Credible Dual-CNN Expert Guided Transformer for Remote Sensing Image Segmentation with Sparse Point Annotation (TGRS 2024)"
 - For any problem related to this project, please email me: chenyujia111@outlook.com, thanks.
 
 ![alt text](workflow.jpg)
@@ -15,8 +15,8 @@
 - Remote sensing datasets used in this repo:
   - [Vaihingen dataset](http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-vaihingen.html)
   - [Zurich Summer dataset](https://zenodo.org/record/5914759)
-  - [Point-level annotations](https://github.com/Hua-YS/Semantic-Segmentation-with-Sparse-Labels) (The above work was provided by Hua et al, please convert the annotation files into the `.png` format, where the pixel values range from `0` to `num_classes-1`)
--  We also provide the processed data set, which can be downloaded at the link [PointDataset](https://drive.google.com/file/d/1QWoAGVWgjUM5XW7CQKvtmBHOCSVInO7m/view?usp=sharing).
+  - [Point-level annotations](https://github.com/Hua-YS/Semantic-Segmentation-with-Sparse-Labels) (The above work was provided by Hua et al, please convert the annotation files into the `.tif` format, where the pixel values range from `0` to `num_classes-1`)
+-  We also provide the processed dataset, which can be downloaded at the link [PointDataset](https://drive.google.com/file/d/1QWoAGVWgjUM5XW7CQKvtmBHOCSVInO7m/view?usp=sharing).
 - Pretrained models: [Efficientnet](https://pan.baidu.com/s/1zBmHtnpafVjstgdLUO7DJA coda:qv8z and [SwinV2](https://drive.google.com/file/d/1arfOBeQWZLUStvc64MkgtG3nQesG2Ini/view?usp=sharing)
 
 - Data folder structure
@@ -92,7 +92,7 @@ Please cite the following paper if the code is useful for your research:
 }](https://github.com/Yujia73/SparseFormer)
 ```
 ### Acknowledgement
-- This project heavily rely on Long's work, for more details, please see the link(https://github.com/long123524/CLCFormer).
+- This project heavily rely on Long's work, for more details, please see the link (https://github.com/long123524/CLCFormer).
 
 - The authors also would like to thank the International Society for Photogrammetry and Remote Sensing (ISPRS), and the German Society for Photogrammetry, Remote Sensing and Geoinformation (DGPF) for providing the Vaihingen dataset, and Dr. Michele Volpi for providing the Zurich Summer dataset.
 
