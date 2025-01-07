@@ -526,9 +526,3 @@ class Conv(nn.Module):
             x = self.relu(x)
         return x
     
-if __name__=="__main__":
-
-   # pretrained_weights = torch.load('pretrained/mit_b1.pth')
-    wetr = CLCFormer(num_classes=5,pretrained=True).cuda()
-    dummy_input = torch.rand(2,3,512,512)
-    wetr(dummy_input)
