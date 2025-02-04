@@ -1,5 +1,5 @@
 ### SparseFormer (TGRS 2024)
-- This is the PyTorch implementation of "A Credible Dual-CNN Expert Guided Transformer for Remote Sensing Image Segmentation with Sparse Point Annotation (TGRS 2024)"
+- This is the PyTorch implementation of "SparseFormer: A Credible Dual-CNN Expert-Guided Transformer for Remote Sensing Image Segmentation With Sparse Point Annotation (TGRS 2024)"
 - For any problem related to this project, please email me: chenyujia111@outlook.com, thanks.
 
 ![alt text](workflow.jpg)
@@ -77,19 +77,21 @@ python inference_Zurich.py
 ```
 
 ### Paper
-**[SparseFormer: A Credible Dual-CNN Expert Guided Transformer for Remote Sensing Image Segmentation with Sparse Point Annotation]**
+**[SparseFormer: A Credible Dual-CNN Expert-Guided Transformer for Remote Sensing Image Segmentation With Sparse Point Annotation]**
 
 Please cite the following paper if the code is useful for your research:
 
 ```
-[@article{SparseFormer,
-  title={SparseFormer: A Credible Dual-CNN Expert Guided Transformer for Remote Sensing Image Segmentation with Sparse Point Annotation}, 
-  author={Yujia Chen, Hao Cui, Guo Zhang, Xue Li, Zhigang Xie, Haifeng Li, Deren Li},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},  
-  volume={},
-  pages={},
-  year={2024},
-}](https://github.com/Yujia73/SparseFormer)
+@ARTICLE{10817638,
+  author={Chen, Yujia and Cui, Hao and Zhang, Guo and Li, Xue and Xie, Zhigang and Li, Haifeng and Li, Deren},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={SparseFormer: A Credible Dual-CNN Expert-Guided Transformer for Remote Sensing Image Segmentation With Sparse Point Annotation}, 
+  year={2025},
+  volume={63},
+  number={},
+  pages={1-16},
+  keywords={Annotations;Transformers;Semantic segmentation;Training;Convolutional neural networks;Semantics;Remote sensing;Uncertainty;Accuracy;Computational modeling;Knowledge distillation;point annotation;semantic segmentation;Transformer;weakly supervised (WS)},
+  doi={10.1109/TGRS.2024.3523537}}
 ```
 ### Acknowledgement
 - This project heavily rely on Long's work, for more details, please see the link (https://github.com/long123524/CLCFormer).
