@@ -268,7 +268,6 @@ class SparseFormer(nn.Module):
         self.up_c_3_2 = Up(64, 32, 32, attn=True)
 
         self.drop = nn.Dropout2d(drop_rate)
-        self.generator = Generator()
         
         if normal_init:
             self.init_weights()
