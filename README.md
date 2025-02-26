@@ -16,7 +16,7 @@
   - [Vaihingen dataset](http://www2.isprs.org/commissions/comm3/wg4/2d-sem-label-vaihingen.html)
   - [Zurich Summer dataset](https://zenodo.org/record/5914759)
   - [Point-level annotations](https://github.com/Hua-YS/Semantic-Segmentation-with-Sparse-Labels) (The above work was provided by Hua et al, please convert the annotation files into the `.tif` format, where the pixel values range from `0` to `num_classes-1`)
--  We also provide the processed dataset, which can be downloaded at the link [PointDataset](https://drive.google.com/file/d/1lO6Tw5w_T6lOecx2LHtOkRzk-rBYn3OI/view?usp=drive_link)/[https://pan.baidu.com/s/1F_7Ed3X983TtE7NfzbnsyA?pwd=ebee] code: ebee
+-  We also provide the processed dataset, which can be downloaded at the link [google drive](https://drive.google.com/file/d/1lO6Tw5w_T6lOecx2LHtOkRzk-rBYn3OI/view?usp=drive_link) or [baidu drive](https://pan.baidu.com/s/1F_7Ed3X983TtE7NfzbnsyA?pwd=ebee) code: ebee
 
 - Pretrained models: [Efficientnet](https://pan.baidu.com/s/1zBmHtnpafVjstgdLUO7DJA coda:qv8z and [SwinV2](https://drive.google.com/file/d/1arfOBeQWZLUStvc64MkgtG3nQesG2Ini/view?usp=sharing)
 
