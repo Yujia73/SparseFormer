@@ -26,7 +26,7 @@ def random_crop(image,mask,gt,crop_size=(512,512)):
         label = np.asarray(mask_crop, np.float32)       
         n=n+1
 
-        if np.sum(label!=5)>1:
+        if np.sum(label!=255)>1:
             not_valid = False
 
     return image_crop,mask_crop,gt_crop
